@@ -1,0 +1,104 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome {
+  margin-bottom: 25px;
+}
+
+.add-form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  width: 80%;
+  max-width: 900px;
+  justify-content: center;
+}
+
+.add-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.search-box {
+  margin: 20px 0;
+  width: 80%;
+  max-width: 500px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.sweet-list {
+  width: 80%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sweet-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sweet-info {
+  font-size: 16px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: orange;
+  color: white;
+}
+
+.secondary {
+  background: #ffa500;
+  color: white;
+}
+
+.danger {
+  background: #ff6b6b;
+  color: white;
+}
+
+.logout {
+  margin-top: 30px;
+  background: orange;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.sold {
+  color: red;
+  font-weight: bold;
+}

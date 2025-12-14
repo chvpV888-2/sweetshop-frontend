@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard-card {
+  width: 90%;
+  max-width: 900px;
+}
+.logout-btn {
+  width: 150px;
+  margin: 30px auto 0;
+  display: block;
+}

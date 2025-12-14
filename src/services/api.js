@@ -1,4 +1,7 @@
-const BASE = "http://localhost:8080";
+// Automatically switches to your Render backend when deployed
+const BASE = window.location.hostname === "localhost"
+  ? "http://localhost:8080"
+  : "https://sweetshop-backend-efqb.onrender.com";
 
 export async function login(username, password) {
   const res = await fetch(`${BASE}/api/auth/login`, {
